@@ -4,16 +4,16 @@ import os
 
 allFiles = os.listdir("/home/abhijeet/Downloads")
 
-imageformats=["jpg","bmp","png"]
+imageformats=["jpg","bmp","png","gif"]
 textformats=["txt","fasta","out"]
 pdfs=["pdf"]
-exes=["exe","tar","bz2","bz"]
+exes=["exe","tar","bz2","bz","a","bat","lib","zip","dll"]
 officedocs=["xlsx","xls","doc","docx","ppt"]
-Web=["js","css","html","jsp","xml"]
-videos=["mpeg","3gp","mp4"]
-songs=["mp3"]
+Web=["js","css","html","jsp","xml","c","java","py","pl","CPP","csv","json","h","H","jar","PL","pm"]
+videos=["mpeg","3gp","mp4","avi","flv","mov","srt"]
+songs=["mp3","wav","mpa"]
 
-folderMap={"Image":imageformats,"TextFile":textformats,"PDF":pdfs,"Software":exes,"Documents":officedocs,"Web":Web,"Video":videos,"songs":songs}
+folderMap={"Image":imageformats,"TextFile":textformats,"PDF":pdfs,"Software_Compressed":exes,"Documents":officedocs,"Programming":Web,"Video":videos,"songs":songs}
 
 
 
